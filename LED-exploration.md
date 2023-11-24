@@ -2,7 +2,7 @@
 
 ## Let's see what the micro:bit display can do!
 
-![Question mark in the LEDs](/question-mark.png)
+![Question mark in the LEDs](/static/question-mark.png)
 
 ## {Step 1 @fullscreen}
 
@@ -23,7 +23,7 @@ Type in your name in the space provided and click ``|Download|`` to see your nam
 ## {Step 5}
 Now add an icon to the end by finding the ``||basic:show icon||`` block under ``||basic:Basic||`` and dragging it to the end of the ``||basic:on start||`` function
 
-``||basic:show icon||`` does the same thing as ``||basic:show leds||``except that the design is premade instead of you having to draw out every single LED that lights up 
+``||basic:show icon||`` does the same thing as ``||basic:show leds||`` except that the design is premade instead of you having to draw out every single LED that lights up .
 
 Click the dropdown to choose whatever icon you want and download the code!
 
