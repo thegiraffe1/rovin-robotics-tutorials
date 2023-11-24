@@ -2,9 +2,7 @@
 
 ## Let's see what the micro:bit display can do!
 
-<!-- ![Question mark in the LEDs](https://raw.githubusercontent.com/thegiraffe1/rovin-robotics-tutorials/main/question-mark.png) -->
-
-<img src="https://raw.githubusercontent.com/thegiraffe1/rovin-robotics-tutorials/main/question-mark.png" width="200" height="200" />
+![Question mark in the LEDs](https://raw.githubusercontent.com/thegiraffe1/rovin-robotics-tutorials/main/question-mark.png)
 
 ## {Step 1 @fullscreen}
 
