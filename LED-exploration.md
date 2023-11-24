@@ -2,7 +2,7 @@
 
 ## Let's see what the micro:bit display can do!
 
-![Question mark in the LEDs](/static/question-mark.png)
+![Question mark in the LEDs](/question-mark.png)
 
 ## {Step 1 @fullscreen}
 
