@@ -8,7 +8,8 @@
     },
     "files": [
         "LED-exploration.md",
-        "question-mark.png"
+        "question-mark.png",
+        "sound-detection.md"
     ],
     "testFiles": [
     ],
