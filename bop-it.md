@@ -1,8 +1,8 @@
-# Bop It 
+### @activities true
 
-### @activities 1
+## Introduction
 
-## Code a Bop It-like game!
+### Code a Bop It-like game!
 
 ![Bop It GIF](https://raw.githubusercontent.com/thegiraffe1/rovin-robotics-tutorials/main/bop-it.gif)
 
@@ -51,7 +51,7 @@ Let's fill the other cases! Create three more ``||logic:equals||`` blocks and pu
 
 ### {Step 5}
 
-Let's check if everything works! We can manually go through the cases. In each body of the ``|basic:if then|`` block, add a ``||logic:set state to||`` block that goes to the next state. For example, when ``|variable:state|`` is 1, set it to 2. When it is 2, set it to 3. When it is 5 though, set it back to 1. 
+Let's check if everything works! We can manually go through the cases. In each body of the ``|basic:if then|`` block, add a ``||variable:set state to||`` block that goes to the next state. For example, when ``|variable:state|`` is 1, set it to 2. When it is 2, set it to 3. When it is 5 though, set it back to 1. 
 
 Once you've done this, hit ``||Download||`` and run!
 
