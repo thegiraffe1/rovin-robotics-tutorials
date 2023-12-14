@@ -36,6 +36,11 @@ Once you've done this, hit ``||Download||`` and run!
 
 
 ```template
+let state = 0
+function checkAction(num) {
+    music.play(music.stringPlayable("F A C5 C5 - A C5 C5 ", 300), music.PlaybackMode.UntilDone)
+}
+
 basic.showIcon(IconNames.Happy)
 
 basic.forever(function () {
@@ -51,9 +56,4 @@ basic.forever(function () {
         basic.clearScreen()
     }
 })
-
-let state = 0
-function checkAction(num) {
-    music.play(music.stringPlayable("F A C5 C5 - A C5 C5 ", 300), music.PlaybackMode.UntilDone)
-}
 ```
