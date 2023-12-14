@@ -4,7 +4,7 @@
 
 ![Bop It GIF](https://raw.githubusercontent.com/thegiraffe1/rovin-robotics-tutorials/main/bop-it.gif)
 
-## {Step 1}
+## {Step 1 @unplugged}
 
 Let's create a variable to keep track of which button we should press! Go to ``||variables:Variables||`` and Make a Variable and name it **state**. 
 Now, add the ``||variables:set state to 0||`` block into ``||basic:on start||``.
