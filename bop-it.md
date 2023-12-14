@@ -51,10 +51,8 @@ basic.forever(function () {
         basic.clearScreen()
     }
 })
-```
 
-```ghost
-let state = 0;
+let state = 0
 function checkAction(num) {
     music.play(music.stringPlayable("F A C5 C5 - A C5 C5 ", 300), music.PlaybackMode.UntilDone)
 }
