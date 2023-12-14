@@ -9,24 +9,6 @@
 Let's create a variable to keep track of which button we should press! Go to ``||variables:Variables||`` and Make a Variable and name it **state**. 
 Now, add the ``||variables:set state to 0||`` block into ``||basic:on start||``.
 
-```template
-basic.showIcon(IconNames.Happy)
-
-basic.forever(function () {
-    if (input.buttonIsPressed(Button.A)) {
-        basic.showIcon(IconNames.Heart)
-    } else if (input.buttonIsPressed(Button.B)) {
-        basic.showIcon(IconNames.SmallHeart)
-    } else if (input.isGesture(Gesture.Shake)) {
-        basic.showIcon(IconNames.Yes)
-    } else if (input.isGesture(Gesture.LogoDown)) {
-        basic.showIcon(IconNames.No)
-    } else {
-        basic.clearScreen()
-    }
-})
-```
-
 ## {Step 2}
 
 Instead of using the icons inside the loop right now, we want displays that correspond to an action. For example, you could use ⇽ for button A, ⇾ for button B, "S" for shake, and "F" for flip! 
@@ -51,3 +33,21 @@ Let's check if everything works! We can manually go through the cases. In each b
 
 Once you've done this, hit ``||Download||`` and run!
 
+
+```template
+basic.showIcon(IconNames.Happy)
+
+basic.forever(function () {
+    if (input.buttonIsPressed(Button.A)) {
+        basic.showIcon(IconNames.Heart)
+    } else if (input.buttonIsPressed(Button.B)) {
+        basic.showIcon(IconNames.SmallHeart)
+    } else if (input.isGesture(Gesture.Shake)) {
+        basic.showIcon(IconNames.Yes)
+    } else if (input.isGesture(Gesture.LogoDown)) {
+        basic.showIcon(IconNames.No)
+    } else {
+        basic.clearScreen()
+    }
+})
+```
