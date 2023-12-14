@@ -1,6 +1,6 @@
 # Bop It 
 
-## {Code a Bop It-like game! @unplugged}
+## {Introduction @unplugged}
 
 ![Bop It GIF](https://raw.githubusercontent.com/thegiraffe1/rovin-robotics-tutorials/main/bop-it.gif)
 
