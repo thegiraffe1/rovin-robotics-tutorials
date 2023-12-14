@@ -1,7 +1,8 @@
 # Bop It 
 
-## {Introduction @unplugged} Code a Bop-It like game!
+## {Introduction @unplugged}
 
+Let's code a Bop-It like game!
 ![Bop It GIF](https://raw.githubusercontent.com/thegiraffe1/rovin-robotics-tutorials/main/bop-it.gif)
 
 ## {Step 1}
@@ -50,4 +51,11 @@ basic.forever(function () {
         basic.clearScreen()
     }
 })
+```
+
+```ghost
+let state = 0;
+function checkAction(num) {
+    music.play(music.stringPlayable("F A C5 C5 - A C5 C5 ", 300), music.PlaybackMode.UntilDone)
+}
 ```
